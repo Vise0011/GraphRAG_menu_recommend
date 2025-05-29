@@ -1,0 +1,117 @@
+/* 공통 리셋 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: #f5f5f5;
+  position: relative;
+}
+header h1 {
+  font-size: 1.8rem;
+}
+nav {
+  position: absolute;
+  right: 1rem;
+}
+.nav-btn {
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-btn:hover {
+  background: #0056b3;
+}
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.question-text {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+#menuInput {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+#menuList {
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+#menuList li {
+  padding: 0.4rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+  display: none; /* 기본 숨김 */
+}
+#menuList li.visible {
+  display: block; /* 필터 후 보이기 */
+}
+#menuList li.selected {
+  background: #ffeeba; /* 선택 강조 */
+}
+.form-actions {
+  text-align: right;
+}
+#recommendBtn {
+  background: #28a745;
+  color: #fff;
+}
+#recommendBtn:hover {
+  background: #218838;
+}
+.hidden {
+  display: none;
+}
+#resultSection {
+  text-align: center;
+  margin-top: 2rem;
+}
+.result-text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.result-menu {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+
+.result-reason {
+  margin-top: 1em;
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+#menuReason {
+  font-size: 1rem;
+  white-space: pre-wrap;
+  margin-top: 20px;
+  line-height: 1.6;
+  display: block;
+}

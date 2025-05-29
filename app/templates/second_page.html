@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>추천 메뉴 선택</title>
+  <link rel="stylesheet" href="/static/css/second_page.css" />
+  <script src="/static/js/second_page.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>메뉴 추천 시스템</h1>
+    <nav>
+      <a href="/" class="nav-btn">첫 번째 페이지</a>
+      <a href="/second" class="nav-btn">두 번째 페이지</a> <!-- ✅ FastAPI 경로 기준 -->
+    </nav>
+  </header>
+
+  <main>
+    <section id="inputSection">
+      <p class="question-text">이전 메뉴는 어떤 메뉴였나요??</p>
+      <input id="menuInput" type="text" placeholder="타이핑하여 메뉴 검색" autocomplete="off" />
+      <ul id="menuList"></ul>
+      <div class="form-actions">
+        <button id="recommendBtn" class="nav-btn">메뉴 추천</button>
+      </div>
+    </section>
+
+    <section id="resultSection" class="hidden">
+      <p class="result-text">메뉴 추천은 다음과 같습니다.</p>
+      <p id="resultName" class="result-menu"></p>
+      <div id="menuReason" style="white-space: pre-wrap; margin-top: 20px;" class="hidden"></div>
+      <button id="resetBtn" class="nav-btn">처음으로</button>
+    </section>
+  </main>
+</body>
+</html>

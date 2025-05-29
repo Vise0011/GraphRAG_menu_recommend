@@ -1,0 +1,50 @@
+# 환경 변수
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 가상환경
+.venv/
+venv/
+ENV/
+env/
+
+# 모델 파일 및 캐시
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# 모델 다운로드 디렉토리 (LLaMA)
+app/llama/llama-3.1-8B-Instruct/
+
+# Hugging Face 캐시 (선택)
+huggingface/
+~/.cache/huggingface/
+
+# 로그, 임시 파일
+*.log
+*.tmp
+*.swp
+
+# vscode 설정
+.vscode/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node 관련 (혹시 프론트가 npm 쓸 경우 대비)
+node_modules/

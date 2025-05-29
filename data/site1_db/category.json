@@ -1,0 +1,2331 @@
+[
+  {
+    "menu": "drink",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "dry",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 1.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 1.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "fish_side",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "fish_side2",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "fried",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 1.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 1.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 1.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "fruit",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 1.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 1.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "fry",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 1.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 1.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "grilled_fish",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 1.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 1.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 1.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 1.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "rice_bowl",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 1.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "menu": "row_fish",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 1.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 1.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 1.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 1.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 1.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 1.0
+      },
+      {
+        "type": "단새우",
+        "weight": 1.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 1.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 1.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "side",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "snack",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 1.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "soju_side",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "soup",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 1.0
+      },
+      {
+        "type": "알탕",
+        "weight": 1.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 1.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 1.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 1.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "soup_side",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "sushi",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 0.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 0.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 1.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "menu": "yukhoe",
+    "category": [
+      {
+        "type": "단새우&우니",
+        "weight": 0.0
+      },
+      {
+        "type": "가쓰오우동",
+        "weight": 0.0
+      },
+      {
+        "type": "알탕",
+        "weight": 0.0
+      },
+      {
+        "type": "연어사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "오뎅나베",
+        "weight": 0.0
+      },
+      {
+        "type": "메로구이",
+        "weight": 0.0
+      },
+      {
+        "type": "명란구이",
+        "weight": 0.0
+      },
+      {
+        "type": "닭가라아케",
+        "weight": 0.0
+      },
+      {
+        "type": "하루토 삼합",
+        "weight": 0.0
+      },
+      {
+        "type": "육사시미",
+        "weight": 1.0
+      },
+      {
+        "type": "오늘의사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "육회덮밥",
+        "weight": 1.0
+      },
+      {
+        "type": "진미깡",
+        "weight": 0.0
+      },
+      {
+        "type": "왕새우 튀김",
+        "weight": 0.0
+      },
+      {
+        "type": "참다랑어 사시미&슈토",
+        "weight": 0.0
+      },
+      {
+        "type": "우니추가",
+        "weight": 0.0
+      },
+      {
+        "type": "단새우",
+        "weight": 0.0
+      },
+      {
+        "type": "나가사키짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "모나카",
+        "weight": 0.0
+      },
+      {
+        "type": "육회",
+        "weight": 1.0
+      },
+      {
+        "type": "먹태구이",
+        "weight": 0.0
+      },
+      {
+        "type": "새우관자버터야끼",
+        "weight": 0.0
+      },
+      {
+        "type": "1인사시미",
+        "weight": 0.0
+      },
+      {
+        "type": "연어머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "파인샤벳",
+        "weight": 0.0
+      },
+      {
+        "type": "우니한판",
+        "weight": 0.0
+      },
+      {
+        "type": "모듬고로케",
+        "weight": 0.0
+      },
+      {
+        "type": "타코와사비",
+        "weight": 0.0
+      },
+      {
+        "type": "도미머리구이",
+        "weight": 0.0
+      },
+      {
+        "type": "매운해물짬뽕",
+        "weight": 0.0
+      },
+      {
+        "type": "오늘의초밥",
+        "weight": 0.0
+      },
+      {
+        "type": "우삼겹숙주볶음",
+        "weight": 0.0
+      },
+      {
+        "type": "회덮밥",
+        "weight": 0.0
+      }
+    ]
+  }
+]
