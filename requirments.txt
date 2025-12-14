@@ -1,5 +1,12 @@
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
 requests
 python-dotenv
+mysql-connector-python
+neo4j
+passlib[bcrypt]
+python-jose[cryptography]
+transformers
+torch
+jinja2

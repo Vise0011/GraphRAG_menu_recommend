@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입 - 메뉴 추천 시스템</title>
+    <style>
+        body { font-family: 'Noto Sans KR', sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f2f5; margin: 0; }
+        .signup-box { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 300px; text-align: center; }
+        h2 { margin-bottom: 1.5rem; color: #333; }
+        input, select { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; margin-top: 10px;}
+        button:hover { background-color: #218838; }
+        .back-link { display: block; margin-top: 15px; font-size: 14px; text-decoration: none; color: #007bff; }
+    </style>
+</head>
+<body>
+    <div class="signup-box">
+        <h2>회원가입</h2>
+        <form id="signupForm">
+            <input type="text" id="username" placeholder="아이디" required>
+            <input type="password" id="password" placeholder="비밀번호" required>
+            
+            <input type="number" id="age" placeholder="나이 (선택)">
+            
+            <select id="gender">
+                <option value="">성별 선택 (선택)</option>
+                <option value="male">남성</option>
+                <option value="female">여성</option>
+            </select>
+            
+            <button type="submit">가입하기</button>
+        </form>
+        <a href="/login" class="back-link">로그인으로 돌아가기</a>
+    </div>
+
+    <script>
+        document.getElementById("signupForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            
+            const userData = {
+                username: document.getElementById("username").value,
+                password: document.getElementById("password").value,
+                // 값이 있으면 숫자로 변환, 없으면 null
+                age: document.getElementById("age").value ? parseInt(document.getElementById("age").value) : null,
+                gender: document.getElementById("gender").value || null
+            };
+
+            try {
+                const res = await fetch("/api/v2/auth/signup", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(userData)
+                });
+
+                if (res.ok) {
+                    alert("가입 성공! 로그인 해주세요.");
+                    window.location.href = "/login";
+                } else {
+                    const err = await res.json();
+                    alert("가입 실패: " + err.detail);
+                }
+            } catch (error) {
+                alert("서버 오류가 발생했습니다.");
+            }
+        });
+    </script>
+</body>
+</html>

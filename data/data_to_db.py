@@ -7,7 +7,7 @@ df = pd.read_csv(r"C:\Download\16_team\data\non_var\menu_time_edges.csv")
 # weight을 float로 변환
 df["weight"] = pd.to_numeric(df["weight"], errors="coerce").fillna(0.0).astype(float)
 
-# ✅ target 기준으로 그룹핑
+# target 기준으로 그룹핑
 grouped = df.groupby("target")
 
 # JSON 결과 생성

@@ -35,4 +35,4 @@ for item in category_data:
 with open("menu_merged.json", "w", encoding="utf-8") as f:
     json.dump(list(menu_dict.values()), f, ensure_ascii=False, indent=2)
 
-print("✅ 병합 완료: menu_merged.json 생성됨")
+print("병합 완료: menu_merged.json 생성됨")

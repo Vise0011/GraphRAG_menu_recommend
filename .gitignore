@@ -1,50 +1,39 @@
-# 환경 변수
+# .gitignore
+
+# 1. 민감한 개인정보 및 환경설정 (절대 올리면 안 됨)
 .env
+config.py
+secrets.json
+*.pem
+*.key
 
-# Python bytecode
-__pycache__/
-*.py[cod]
-*.pyo
-*.so
-
-# 시스템 파일
-.DS_Store
-Thumbs.db
-
-# 가상환경
-.venv/
-venv/
-ENV/
-env/
-
-# 모델 파일 및 캐시
-*.pt
+# 2. 거대 LLM 모델 파일 (용량이 커서 GitHub에 안 올라감)
+app/llama/
+models/
 *.bin
-*.ckpt
+*.pth
+*.pt
+*.gguf
 *.safetensors
 
-# 모델 다운로드 디렉토리 (LLaMA)
-app/llama/llama-3.1-8B-Instruct/
+# 3. 파이썬 가상환경 및 캐시
+venv/
+env/
+__pycache__/
+*.pyc
 
-# Hugging Face 캐시 (선택)
-huggingface/
-~/.cache/huggingface/
-
-# 로그, 임시 파일
+# 4. 로그 파일 및 데이터베이스 파일
 *.log
-*.tmp
-*.swp
+*.sqlite3
+*.db
 
-# vscode 설정
-.vscode/
+# 5. 테스트 파일 및 임시 파일 (요청하신 대로 제외)
+tests/
+test_*.py
+*test.py
+temp/
+debug/
 
-# PyInstaller
-dist/
-build/
-*.spec
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Node 관련 (혹시 프론트가 npm 쓸 경우 대비)
-node_modules/
+# 6. OS 시스템 파일
+.DS_Store
+Thumbs.db

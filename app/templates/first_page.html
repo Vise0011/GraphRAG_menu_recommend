@@ -1,116 +1,92 @@
-
-<!DOCTYPE html> 
-<html lang="ko"> 
+<!DOCTYPE html>
+<html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- 반응형 뷰포트 설정 -->
-  <title>메뉴 추천 시스템</title> <!-- 브라우저 탭 제목 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>메뉴 추천 시스템</title>
   <link rel="stylesheet" href="/static/css/first_page.css" />
   <script src="/static/js/first_page.js" defer></script>
 </head>
 <body>
-  <header> <!-- 페이지 상단 헤더 영역 -->
-    <h1>메뉴 추천 시스템</h1> <!-- 중앙에 표시할 큰 제목 -->
-    <nav> <!-- 페이지 전환용 네비게이션 -->
-      <a href="first_page.html" class="nav-btn">첫 번째 페이지</a> <!-- 자기 자신 링크 -->
-      <a href="/second" class="nav-btn">두 번째 페이지</a>
+  <header>
+    <h1>메뉴 추천 시스템</h1>
+    <nav>
+      <a href="/" class="nav-btn">홈으로</a>
+      
+      <button id="collabBtn" class="nav-btn" style="background-color: #6f42c1; color: white; border: none; cursor: pointer;">
+        ✨ 나와 비슷한 유저의 Pick!
+      </button>
+      
+      <span id="auth-box" style="margin-left: 20px;">
+        <a href="/login" id="loginBtn" class="nav-btn" style="background-color: #6c757d;">로그인</a>
+        <span id="user-info" class="hidden" style="color: #333; font-weight: bold;">
+          <span id="username-display"></span>님
+          <button id="logoutBtn" class="nav-btn" style="background-color: #dc3545; font-size: 0.9rem;">로그아웃</button>
+        </span>
+      </span>
     </nav>
   </header>
-  <main> <!-- 본문 영역 -->
-    <form id="recommendForm"> <!-- 추천 폼, JS에서 제어 -->
-      <div class="form-group"> <!-- 인원수 선택 그룹 -->
-        <label for="people">인원수</label> <!-- 폼 요소 라벨 -->
-        <select id="people" name="people"> 
-          <option value="1">1명</option> 
-          <option value="2">2명</option>
-          <option value="3">3명</option> 
-          <option value="4">4명</option> 
-          <option value="5">5명</option> 
-          <option value="6">6명</option> 
-          <option value="7">7명</option> 
-          <option value="8">8명</option> 
-          <option value="9">9명</option> 
-          <option value="10">10명</option> 
-          <option value="11">11명</option> 
-          <option value="12">12명</option> 
+  <main>
+    <form id="recommendForm">
+      <div class="form-group">
+        <label for="people">인원수</label>
+        <select id="people" name="people">
+          <option value="1">1명</option><option value="2">2명</option><option value="3">3명</option>
+          <option value="4">4명</option><option value="5">5명</option><option value="6">6명</option>
         </select>
       </div>
-      <div class="form-group"> <!-- 선호 가격대 선택 그룹 -->
+      <div class="form-group">
         <label for="price">선호 가격대</label>
         <select id="price" name="price">
-          <option value="0">₩0–10,000</option> 
+          <option value="0">₩0–10,000</option>
           <option value="10000">₩10,000–20,000</option>
           <option value="20000">₩20,000–30,000</option>
           <option value="30000">₩30,000–40,000</option>
           <option value="40000">₩40,000–50,000</option>
           <option value="50000">₩50,000–100,000</option>
-          <option value="100000">₩100,000 이상</option> 
+          <option value="100000">₩100,000 이상</option>
         </select>
       </div>
-      <div class="form-group"> <!-- 현재 주문 시간대 선택 -->
+      <div class="form-group">
         <label for="time">현재 주문 시간대</label>
         <select id="time" name="time">
-          <option value="17">17~18시</option>
-          <option value="18">18~19시</option>
-          <option value="19">19~20시</option>
-          <option value="20">20~21시</option>
-          <option value="21">21~22시</option>
-          <option value="22">22~23시</option>
-          <option value="23">23~24시</option>
-          <option value="24">24~1시</option>
-          <option value="01">1~2시</option>
-          <option value="02">2~3시</option>
+          <option value="17">17~18시</option><option value="18">18~19시</option>
+          <option value="19">19~20시</option><option value="20">20~21시</option>
+          <option value="21">21~22시</option><option value="22">22~23시</option>
+          <option value="23">23~24시</option><option value="24">24~1시</option>
         </select>
       </div>
-      <div class="form-group"> <!-- 강수량량 선택 그룹 -->
+      <div class="form-group">
         <label for="rain">강수량</label>
         <select id="rain" name="rain">
-          <option value="0mm">없음</option>
-          <option value="3mm">약한 비</option>
-          <option value="15mm">(보통) 비</option>
-          <option value="30mm">강한 비</option>
-          <option value="30mm_high">매우 강한 비</option>
+          <option value="0mm">없음</option><option value="3mm">약한 비</option>
+          <option value="15mm">(보통) 비</option><option value="30mm">강한 비</option>
         </select>
       </div>
-      <div class="form-group"> <!-- 계절 선택 그룹 -->
+      <div class="form-group">
         <label for="season">계절</label>
         <select id="season" name="season">
-          <option value="spring">봄</option>
-          <option value="summer">여름</option>
-          <option value="autumn">가을</option>
-          <option value="winter">겨울</option>
+          <option value="spring">봄</option><option value="summer">여름</option>
+          <option value="autumn">가을</option><option value="winter">겨울</option>
         </select>
       </div>
-      <div class="form-group"> <!-- 주류 선택 그룹 -->
+      <div class="form-group">
         <label for="alcohol">주류 선택</label>
         <select id="alcohol" name="alcohol">
-          <option value="no_alchol">없음</option>
-          <option value="fr_beer">생맥주</option>
-          <option value="soju">소주</option>
-          <option value="beer">맥주</option>
-          <option value="high">하이볼</option>
-          <option value="wisky">위스키</option>
-          <option value="pri_sohu">증류소주</option>
-          <option value="sake">사케</option>
+          <option value="no_alchol">없음</option><option value="fr_beer">생맥주</option>
+          <option value="soju">소주</option><option value="beer">맥주</option>
         </select>
       </div>
-      <div class="form-group"> <!-- 메뉴 종류 선택 그룹 -->
+      <div class="form-group">
         <label for="category">선호메뉴 종류</label>
         <select id="category" name="category">
-          <option value="soup">탕</option>
-          <option value="grilled_fish">생선구이</option>
-          <option value="rice_bowl">덮밥</option>
-          <option value="fried">튀김</option> #
+          <option value="soup">탕</option><option value="grilled_fish">생선구이</option>
+          <option value="rice_bowl">덮밥</option><option value="fried">튀김</option>
           <option value="sushi">스시</option>
-          <option value="yukhoe">육회</option>
-          <option value="fry">일반안주</option>
-          <option value="dry">마른안주</option> #
-          <option value="fruit">과일</option>
-          <option value="snack">간식</option>
         </select>
       </div>
-      <div class="form-actions"> <!-- 폼 제출 버튼 그룹 -->
-        <button type="submit" id="recommendBtn">메뉴 추천</button> <!-- 추천 실행 -->
+      <div class="form-actions">
+        <button type="submit" id="recommendBtn">메뉴 추천</button>
       </div>
     </form>
 

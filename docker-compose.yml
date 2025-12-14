@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  # 1. MySQL (유저 관리용)
+  mysql_db:
+    image: mysql:8.0
+    container_name: local-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password  # 루트 비밀번호
+      MYSQL_DATABASE: menu_system    # 생성할 DB 이름
+      MYSQL_USER: dev_user           # 개발용 유저 ID
+      MYSQL_PASSWORD: password       # 개발용 유저 비번
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data_local:/var/lib/mysql  # 데이터 영구 저장
+    networks:
+      - dev_net
+
+  # 2. Neo4j (메뉴 추천 그래프용)
+  neo4j_db:
+
+    image: neo4j:latest
+    container_name: local-neo4j
+    restart: always
+    ports:
+      - "7474:7474"  # 웹 어드민 페이지 (HTTP)
+      - "7687:7687"  # 데이터 연결 포트 (Bolt)
+    environment:
+      NEO4J_AUTH: neo4j/password     # ID: neo4j / PW: password
+    volumes:
+      - neo4j_data_local:/data           # 데이터 영구 저장
+    networks:
+      - dev_net
+
+# 데이터를 저장할 가상 공간 (컨테이너를 지워도 데이터는 남음)
+volumes:
+  mysql_data_local:
+  neo4j_data_local:
+
+# 컨테이너끼리 통신할 네트워크
+networks:
+  dev_net:
+    driver: bridge

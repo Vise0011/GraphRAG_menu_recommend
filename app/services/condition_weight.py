@@ -6,8 +6,8 @@ BASE_PATH = "/root/16_team/data/site1_db"
 
 def load_condition_weights(condition_name, condition_value):
     """
-    특정 조건 값에 해당하는 메뉴별 가중치를 로드합니다.
-    예: people = "2" → people.json에서 "2"에 해당하는 메뉴와 가중치 반환
+    조건 값에 해당하는 메뉴별 가중치를 로드
+    ex) people = "2" → people.json에서 "2"에 해당하는 메뉴와 가중치 반환
     """
     path = os.path.join(BASE_PATH, f"{condition_name}.json")
     try:
@@ -37,7 +37,7 @@ def get_weighted_top5(user_input: dict) -> list[dict]:
         weights = load_condition_weights(key, cond_val)
         for menu, weight in weights.items():
             total_weights[menu][f"{key}_weight"] = weight
-            total_weights[menu]["total_weight"] += weight  # ✅ 변수명 명확화
+            total_weights[menu]["total_weight"] += weight
 
     # 총합 가중치 기준 정렬 후 상위 5개 메뉴 추출
     sorted_menus = sorted(
@@ -50,7 +50,6 @@ def get_weighted_top5(user_input: dict) -> list[dict]:
     for menu_name, weights in sorted_menus:
         weights["menu"] = menu_name
 
-        # 모든 조건 키에 대해 weight가 없으면 0.0으로 채움
         for key in condition_keys:
             weights.setdefault(f"{key}_weight", 0.0)
 

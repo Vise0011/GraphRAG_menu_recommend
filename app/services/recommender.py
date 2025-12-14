@@ -11,4 +11,4 @@ def get_top5_menus(user_input: dict, menu_db: list) -> list:
     # 상위 5개를 가중치 기준으로 정렬
     top5 = sorted(filtered, key=lambda x: x.get("weight_sum", 0), reverse=True)[:5]
 
-    return top5  # 딕셔너리 그대로 리턴
+    return top5 

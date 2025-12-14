@@ -4,7 +4,7 @@ from collections import defaultdict
 
 BASE_PATH = "data/site2_db"
 
-# ✅ 추천 메뉴 + 가중치 리스트 생성 함수
+# 추천 메뉴 + 가중치 리스트 생성 함수
 def get_top5_menu_with_weights(input_menu: str):
     weight_map = defaultdict(lambda: defaultdict(float))
 
